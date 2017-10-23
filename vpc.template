@@ -1205,8 +1205,6 @@
                 },
                 "\n",
                 "yum install -y git\n",
-                "yum install -y ansible ",
-                "         --enablerepo=epel\n",
                 "pip install ansible\n",
                 "cd /opt\n",
                 "git clone git://github.com/ansible/ansible.git ",
