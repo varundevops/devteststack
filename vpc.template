@@ -1214,9 +1214,11 @@
                 "cd /opt/ansible\n",
                 "source hacking/env-setup",
                 "cd /opt\n",
-                "git clone git://github.com/",
+                "mkdir wordpress",
+                "cd wordpress",
+                "git clone https://github.com/varundevops/devteststack.git",
                 "         --recursive\n",
-                "cd /opt/wordpress"
+                "ansible-playbook wordpress.yml"
               ]
             ]
           }
