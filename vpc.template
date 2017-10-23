@@ -1187,7 +1187,7 @@
                 {
                   "Ref": "AWS::StackName"
                 },
-                "         --resource WebServerInstance ",
+                "         --resource WordpressInstance ",
                 "         --region ",
                 {
                   "Ref": "AWS::Region"
@@ -1198,7 +1198,7 @@
                 {
                   "Ref": "AWS::StackName"
                 },
-                "         --resource WebServerInstance ",
+                "         --resource WordpressInstance ",
                 "         --region ",
                 {
                   "Ref": "AWS::Region"
